@@ -1,0 +1,296 @@
+.head {
+    background: white;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+.list_item {
+    width: 100%;
+    min-width: 1220px;
+    background: white;
+    /* height: 37px; */
+    border-bottom: 1px solid #f0123a;
+}
+.list_item ul {
+    width: 1220px;
+    height: 100%;
+    margin: auto;
+
+}
+.list_item ul li {
+    float: left;
+    line-height: 37px;
+}
+.list_item ul li a {
+    display: block;
+    padding: 0  14px;
+    color: #404040;
+    font-size: 14px;
+    height: 37px;
+    line-height: 37px;
+    font: bold 14px/35px "\5b8b\4f53";
+}
+/* 二级导航 */
+.ts_navigation {
+    width: 100%;
+    background: #f3210a;
+    overflow: hidden;
+    position: relative;
+}
+.ts_navigation ul {
+    width: 1211px;
+    background: #f3210a;
+    margin: auto;
+    height: auto;
+    display: none;
+    /* position: absolute; */
+}
+.ts_navigation ul li {
+    width: 199px;
+    height: 68px;
+    border-left: 1px white dotted;
+}
+.ts_navigation ul li dl {
+    box-sizing: border-box;
+}
+.ts_navigation ul li dl a {
+    padding: 0 1px;
+    color: white;
+    font-size: 12px;
+
+}
+.ts_navigation ul li dl dt {
+    height: 24px;
+    margin-left: 10px;
+}
+.ts_navigation ul li dl dd {
+    float: left;
+    margin-left: 10px;
+    
+}
+.active {
+    background: #f3210a;
+    color: white !important;
+}
+/* 轮播图rotation_chart */
+.rotation_chart {
+    width: 100%;
+    min-width: 1220px;
+    height: 522px;
+    position: relative;
+}
+.rotation_chart ul {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.rotation_chart ul li {
+    width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: absolute;
+}
+.rotation_chart ul li img{
+   margin-left: -200px;
+}
+.rotation_chart  p {
+    position: absolute;
+    bottom: 170px;
+    left:1000px;
+}
+.rotation_chart  p a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+/* 数据渲染部分 */
+.nav_height {
+    width: 100%;
+    height: 42px;
+    background: white;
+}
+.nav_height ul {
+    width: 1220px;
+    height: 42px;
+    margin: auto;
+}
+.nav_height ul li {
+    float: left;
+}
+.nav_height ul li a {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 42px;
+    color: black;
+    font-size: 14px;
+}
+
+.nav_height ul li::after {
+    content: '|';
+    color: #ccc;
+}
+.height_active {
+    color: red !important;
+}
+.webget_list {
+    width: 1220px;
+    /* height: 1000px; */
+    margin: auto;
+    margin-bottom: 50px;
+}
+.webget_list p {
+    width: 100%;
+    height: 42px;
+    background-image: url(../img/nz_09.jpg);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.webget_list .listall_title {
+    line-height: 54px;
+    
+}
+.listall {
+    width: 1220px;
+}
+.listall ul {
+    width: 1220px;
+    overflow: hidden;
+    padding-top: 5px;
+    background: #f1f3f0;
+}
+.listall  li {
+    float: left;
+    width: 218px;
+    background: #fff;
+    padding: 8px;
+    border: 1px solid #e8e8e8;
+    margin: 0 4px 8px;
+    cursor: auto;
+}
+.listall  li:hover{
+  box-shadow: 0 0 6px;
+}
+.picshow {
+    width: 218px;
+    height: 218px;
+}
+.picshow  img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.goods_title{
+    height: 44px;
+    overflow: hidden;
+    color: #000;
+    display: block;
+    font-size: 14px;
+}
+.goods_warp {
+    width: 100%;
+    height: 32px;
+}
+.gs_name {
+    display: inline-block;
+    float: left;
+    width: 88px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    color: #666;
+}
+
+.sales_volume {
+    display: block;
+    float: right;
+    height: 32px ;
+    font-size: 12px;
+    line-height: 32px ;
+    color: #b57c5b;
+    background: url(../img/xp_titbgb.gif)no-repeat left center ;
+}
+.sales {
+    margin-left: 15px;
+}
+.goods_price {
+    height: 24px;
+    line-height: 30px;
+    float: left;
+    color: #d71e00;
+    font-size: 12px;
+}
+.upcart {
+    padding: 0 10px;
+    background: #f3210a;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    float: right;
+}
+.chart_active {
+    background: red !important;
+}
+.backtop {
+    width: 60px;
+    height: 53px;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    background: url(../img/back_top1.png) no-repeat;
+    cursor: pointer;
+}
+.backtop:hover{
+    background: url(../img/back_top2.png) no-repeat;
+}
+.poster {
+    width: 210px;
+    height: 445px;
+    position: fixed;
+    right: -176px;
+    top: 20%;
+    z-index: 100;
+}
+.poster img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.posterbtn {
+    width: 42px;
+    height: 129px;
+    position: absolute;
+    left: 0;
+    top: 157px;
+    z-index: 102;
+    cursor: pointer;
+}
+.chart_one {
+    z-index: 55 !important;
+}
+.chart_focus {
+    z-index: 99 !important;
+}
+.aaa {
+    width: 1220px;
+    margin: auto;
+    overflow-x: hidden;
+
+}
+.btnmore {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.btnmore a {
+    display: block;
+    width: 110px;
+    margin: auto;
+    background: rgb(68, 67, 67);
+    color: white;
+    height: 24px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}

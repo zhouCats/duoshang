@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/cart.css">
+    <!-- <script src="../lib/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/cart.js"></script> -->
+</head>
+
+<body>
+    <script src="../js/require.js" data-main='../js/home'></script>
+    <div id="box">
+        <div class="cart_nav">
+            <div class="top_nav">
+                <div class="nav_L">
+                    hi ,
+                    <span class="username">nihao</span>
+                    <a href="###">
+                        <img src="../img/dsImg_12.jpg" alt=""> 消息
+                        <i></i>
+                    </a>
+                    <span class="exit">退出</span>
+                </div>
+                <ul class="nav_R">
+                    <li>
+                        <a href="###">多商首页</a>
+                    </li>
+                    <li>
+                        <a href="###">我的多商
+                            <i>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="###">
+                            <img src="../img/dsImg_13.jpg" alt=""> 购物车(
+                            <span class="length">4</span>)
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="###">收藏夹
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="###">在线客服
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="###">手机多商
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="###">
+                            <img src="../img/dsImg_15.jpg" alt=""> 供应商入驻</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="bot_nav">
+                <div class="search_con">
+                    <p>买家中心</p>
+                    <div class="search_box">
+                        <input type="text" placeholder="周二新品火爆上新中！周四特价季来啦！">
+                        <a href="###">搜索</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart_main">
+            <section class="cartMain">
+                <div class="cartMain_hd">
+
+                </div>
+
+                <div>
+                    <div class="navigation">
+                        您的位置：
+                        <span>
+                            <a href="###">多商网首页</a>
+                        </span>>
+                        <span>
+                            <a href="###">我的多商</a>
+                        </span>>
+                        <span>
+                            <a href="###">我的进货车</a>
+                        </span>
+                    </div>
+                    <div class="shopperTop">
+                        <div class="markRead">
+                            <div class="allSeclect" name="noCheckall">
+
+                            </div>
+                            <span>商品信息</span>
+                        </div>
+                        <div class="markStyle one">
+                            规格
+                        </div>
+                        <div class="markStyle two">
+                            单价
+                        </div>
+                        <div class="markStyle two">
+                            总数
+                        </div>
+                        <div class="markStyle two">
+                            小计
+                        </div>
+                        <div class="markStyle two">
+                            操作
+                        </div>
+                    </div>
+                </div>
+                <ul class="freightcar" id="freightcar">
+                    <!-- <div class="storeBox" data-id='${item.id}'>
+                                <div class="storeImg" data-id='${zs.gid}'>
+                                    <input type="checkbox">
+                                    <img src="../css/img/${zs.imgurl}" alt="" class="boxImg">
+                                    <div>
+                                        <p>${zs.title}</p>
+                                        <p>货号：${zs.itemnum}</p>
+                                    </div>
+                                </div>
+                                <div class="store_btn">
+                                    <div>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>${item.Gcolor}</td>
+                                                    <td>均码</td>
+                                                    <td class="btn_num">
+                                                        <a href="###" class="jian">-</a>
+                                                        <input type="text" value="${item.Gnum}" class="number">
+                                                        <a href="###" class="add">+</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="storeP">
+                                    <p>
+                                        <span>￥${zs.price}</span>
+                                        <del>原价：￥125.00</del>
+                                    </p>
+                                    <p>
+                                        <a href="###" class='anum'>${item.Gnum}</a>
+                                    </p>
+                                    <p>
+                                        <i>
+                                            ￥${item.Gnum * zs.price}
+                                        </i>
+                                    </p>
+                                    <p>
+                                        <img src="../img/dsImg_56.jpg" alt="">
+                                    </p>
+                                </div>
+                            </div> -->
+                    <li>
+                        <!-- <div class="storeBox">
+                            <div class="storeImg">
+                                <img src="../img/dsImg_35.jpg" alt="" class="check">
+                                <img src="../img/item1.jpg" alt="" class="boxImg">
+                                <div>
+                                    <p>时尚新款上衣 (MY1915)</p>
+                                    <p>货号：ED28047734</p>
+                                </div>
+                            </div>
+                            <div class="store_btn">
+                                <div>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>白色</td>
+                                                <td>均码</td>
+                                                <td class="btn_num">
+                                                    <a href="###" class="jian">-</a>
+                                                    <input type="text" value="1" class="number">
+                                                    <a href="###" class="add">+</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="storeP">
+                                <p>
+                                    <span>￥41.50</span>
+                                    <del>原价：￥125.00</del>
+                                </p>
+                                <p>
+                                    <a href="###">1</a>
+                                </p>
+                                <p>
+                                    <i>
+                                        ￥83.00
+                                    </i>
+                                </p>
+                                <p>
+                                    <img src="../img/dsImg_56.jpg" alt="">
+                                </p>
+                            </div>
+                        </div> -->
+                        <!-- <div class="storeBox">
+                            <div class="storeImg">
+                                <img src="../img/dsImg_35.jpg" alt="" class="check">
+                                <img src="../img/item1.jpg" alt="" class="boxImg">
+                                <div>
+                                    <p>时尚新款上衣 (MY1915)</p>
+                                    <p>货号：ED28047734</p>
+                                </div>
+                            </div>
+                            <div class="store_btn">
+                                <div>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>白色</td>
+                                                <td>均码</td>
+                                                <td class="btn_num">
+                                                    <a href="###" class="jian">-</a>
+                                                    <input type="text" value="1" class="number">
+                                                    <a href="###" class="add">+</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="storeP">
+                                <p>
+                                    <span>￥41.50</span>
+                                    <del>原价：￥125.00</del>
+                                </p>
+                                <p>
+                                    <a href="###">1</a>
+                                </p>
+                                <p>
+                                    <i>
+                                        ￥83.00
+                                    </i>
+                                </p>
+                                <p>
+                                    <img src="../img/dsImg_56.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="storeBox">
+                            <div class="storeImg">
+                                <img src="../img/dsImg_35.jpg" alt="" class="check">
+                                <img src="../img/item1.jpg" alt="" class="boxImg">
+                                <div>
+                                    <p>时尚新款上衣 (MY1915)</p>
+                                    <p>货号：ED28047734</p>
+                                </div>
+                            </div>
+                            <div class="store_btn">
+                                <div>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>白色</td>
+                                                <td>均码</td>
+                                                <td class="btn_num">
+                                                    <a href="###" class="jian">-</a>
+                                                    <input type="text" value="1" class="number">
+                                                    <a href="###" class="add">+</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="storeP">
+                                <p>
+                                    <span>￥41.50</span>
+                                    <del>原价：￥125.00</del>
+                                </p>
+                                <p>
+                                    <a href="###">1</a>
+                                </p>
+                                <p>
+                                    <i>
+                                        ￥83.00
+                                    </i>
+                                </p>
+                                <p>
+                                    <img src="../img/dsImg_56.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>  -->
+                    </li>
+
+                </ul>
+                <div class="total">
+                    <div class="allcheck">
+                        <span>
+                            <input type="checkbox" class="allC"> 全选
+                        </span>
+                        <span id="delall">
+                            全部删除
+                        </span>
+                    </div>
+                    <div class="settlement">
+                        <span>已进货商品
+                            <a href="###" class="shopNum">0</a>件</span>
+                        <span>
+                            不包含运费： ￥
+                            <a href="###" class="totalN">0</a>
+                        </span>
+                        <a href="###" class="setBtn">结算</a>
+                    </div>
+                </div>
+                <div class="allFooter">
+
+                </div>
+        </div>
+</body>
+
+</html>

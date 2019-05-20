@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+#header {
+  width: 1000px;
+  height: 55px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#header a {
+  display: block;
+  width: 244px;
+  height: 55px;
+}
+
+#header a img {
+  width: 100%;
+  height: 100%;
+}
+
+#login_main {
+  width: 813px;
+  height: 425px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+#login_left {
+  width: 420px;
+  float: left;
+}
+
+#slidebox {
+  width: 420px;
+  height: 267px;
+  overflow: hidden;
+  position: relative;
+}
+
+#login_right {
+  width: 300px;
+  height: auto;
+  float: right;
+  margin-top: 6px;
+  padding-bottom: 26px;
+  position: relative;
+}
+
+#login_type {
+  width: 310px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+#login_type span {
+  margin: 0 73px 0 0;
+  color: #333333;
+  font-size: 18px;
+  padding: 0 0 7px;
+  cursor: pointer;
+}
+
+#login_type .is_select {
+  border-bottom: 2px #00b03a solid;
+}
+
+#login_form {
+  width: 275px;
+  margin: 15px auto;
+}
+
+#pass_input {
+  position: relative;
+  width: 300px;
+}
+
+#pass_input input {
+  width: 291px;
+  height: 44px;
+  box-sizing: border-box;
+  padding: 15px 8px 15px 6px;
+  font-size: 14px;
+  border: 1px #dddddd solid;
+}
+
+#tel_input {
+  position: relative;
+  width: 300px;
+}
+
+#tel_input input {
+  width: 291px;
+  height: 44px;
+  box-sizing: border-box;
+  padding: 15px 8px 15px 6px;
+  font-size: 14px;
+  border: 1px #dddddd solid;
+}
+
+#tel_input {
+  display: none;
+}
+
+#vfcode {
+  position: absolute;
+  bottom: 8px;
+  right: 18px;
+  border-radius: 5px;
+  padding: 2px 4px;
+  cursor: pointer;
+  color: #666666;
+  border: 1px solid #666666;
+}
+
+#ranNum {
+  width: 291px;
+  height: 44px;
+  box-sizing: border-box;
+  padding: 15px 8px 15px 6px;
+  font-size: 14px;
+  border: 1px #dddddd solid;
+}
+
+#input_submit {
+  width: 293px;
+  height: 41px;
+  background: #f3210a;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  margin: 32px 0 29px;
+  cursor: pointer;
+}
+
+#numB {
+  width: 100px;
+  position: absolute;
+  top: 133px;
+  left: 190px;
+  line-height: 43px;
+  text-align: center;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.remeber {
+  font-size: 14px;
+  color: #3e3e3e;
+  cursor: pointer;
+}
+
+#regbtn {
+  display: inline-block;
+  margin-left: 95px;
+  margin-right: 5px;
+  font-size: 14px;
+  color: red;
+}
+
+#three_login {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 33px 0 0;
+}
+
+#three_login p {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.12);
+  text-align: center;
+  position: relative;
+  margin-top: 15px;
+}
+
+#three_login p span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  position: absolute;
+  top: -10px;
+  left: 31%;
+}
+
+.zhezhao {
+  position: absolute;
+  width: 90px;
+  height: 27px;
+  bottom: 8px;
+  right: 18px;
+  border-radius: 5px;
+  padding: 2px 4px;
+  cursor: pointer;
+  color: #666666;
+  border: 1px solid #666666;
+  background: #000;
+  opacity: 0;
+  display: none;
+}
+
+#duo_footer {
+  width: 100%;
+  height: 508px;
+  background: while;
+  box-shadow: 0 2px 1px -1px #ccc inset;
+  overflow: hidden;
+}
+
+.footer_help {
+  width: 1220px;
+  margin: auto;
+  height: 310px;
+  background-image: url(../img/tuifooter2.jpg);
+  position: relative;
+  margin-top: -154px;
+}
+
+.foot_list {
+  width: 970px;
+  height: 150px;
+  padding-top: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.foot_list dl {
+  float: left;
+  width: 120px;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.foot_list dl dt {
+  margin-left: 17px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+}
+
+.foot_list dl dt a {
+  color: black;
+}
+
+.foot_list dl dd {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  margin-left: 17px;
+  text-align: left;
+}
+
+.foot_list dl dd a {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999999;
+}
+
+.footer_container {
+  width: 1000px;
+  margin: auto;
+}
+
+.footer_container p {
+  cursor: pointer;
+  width: 565px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+}

@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #box {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.cart_nav {
+  width: 100%;
+}
+
+.top_nav {
+  width: 1200px;
+  height: 42px;
+  line-height: 42px;
+  margin: auto;
+}
+
+.top_nav span {
+  line-height: 42px;
+  font-size: 14px;
+}
+
+.nav_L {
+  width: 300px;
+  height: 40px;
+  float: left;
+}
+
+.nav_L a {
+  display: inline-block;
+  padding-left: 18px;
+  margin-left: 20px;
+  margin-right: 30px;
+  position: relative;
+  color: #000;
+}
+
+.nav_L a i {
+  width: 7px;
+  height: 4px;
+  right: -10px;
+  top: 20px;
+  background: url(../img/dsImg_11.jpg);
+  position: absolute;
+}
+
+.nav_R {
+  float: right;
+}
+
+.nav_R li {
+  float: left;
+}
+
+.nav_R li a {
+  padding: 0 25px;
+  position: relative;
+  color: #000000;
+}
+
+.nav_R li a i {
+  width: 7px;
+  height: 4px;
+  right: -10px;
+  top: 10px;
+  background: url(../img/dsImg_11.jpg) no-repeat;
+  position: absolute;
+}
+
+.bot_nav {
+  width: 100%;
+  background: #f3210a;
+}
+
+.bot_nav .search_con {
+  width: 1200px;
+  height: 70px;
+  margin: auto;
+}
+
+.bot_nav .search_con p {
+  line-height: 70px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  float: left;
+}
+
+.search_box {
+  float: right;
+  margin-top: 12.5px;
+}
+
+.search_box input {
+  float: left;
+  width: 427px;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 45px;
+  background: url(../img/register6.jpg) no-repeat 21px center #fff;
+  display: inline-block;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 1px 1px 5px #ccc;
+  box-sizing: border-box;
+}
+
+.search_box a {
+  box-shadow: 1px 1px 5px #ccc;
+  float: left;
+  display: inline-block;
+  width: 116px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background: #343434;
+}
+
+.cart_main {
+  width: 1200px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+
+.navigation {
+  color: #989898;
+}
+
+.navigation span {
+  color: #343434;
+  cursor: pointer;
+  line-height: 35px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navigation span a {
+  color: #989898;
+}
+
+.shopperTop {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 5px;
+}
+
+.shopperTop .markRead {
+  margin-left: 25px;
+  width: 345px;
+  margin-right: 30px;
+  color: #989898;
+  float: left;
+}
+
+.shopperTop .markRead .allSeclect {
+  float: left;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: 90px;
+  color: #989899;
+}
+
+.shopperTop .markRead .allSeclect img {
+  margin: 13px 5px 0 0;
+}
+
+.markStyle {
+  float: left;
+  text-align: center;
+  color: #989898;
+}
+
+.one {
+  width: 370px;
+}
+
+.two {
+  width: 100px;
+}
+
+.freightcar {
+  margin-top: 10px;
+}
+
+.freightcar li {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.storeName {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #B6B6B6;
+  font-size: 14px;
+}
+
+.storeName a {
+  color: #343434;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.storeBox {
+  border-bottom: 1px solid #B6B6B6;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+.storeImg {
+  display: flex;
+  float: left;
+  margin-left: 25px;
+  width: 345px;
+  margin-right: 30px;
+}
+
+.storeImg .check {
+  width: 15px;
+  height: 15px;
+  display: block;
+  cursor: pointer;
+}
+
+.storeImg .boxImg {
+  width: 96px;
+  height: 96px;
+  display: block;
+  margin-left: 20px;
+}
+
+.storeImg p {
+  color: #8c8c8c;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.total {
+  height: 70px;
+}
+
+.store_btn {
+  width: 370px;
+  text-align: center;
+  float: left;
+}
+
+.store_btn div {
+  width: 330px;
+  margin: 0 auto;
+}
+
+.store_btn div table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.store_btn div table tbody tr td {
+  font-size: 14px;
+  padding: 5px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+}
+
+.store_btn div table tbody tr td:nth-child(1) {
+  border-right: 1px solid #ccc;
+  width: 110px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  padding: 5px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.store_btn div table tbody tr td:nth-child(2), .store_btn div table tbody tr td:nth-child(3) {
+  text-align: left;
+}
+
+.store_btn div table tbody tr td:nth-child(3) {
+  margin-left: 20px;
+}
+
+.jian {
+  float: left;
+  font-size: 18px;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #CCCCCC;
+  line-height: 30px;
+  text-align: center;
+}
+
+.number {
+  padding-left: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.add {
+  float: left;
+  font-size: 18px;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #CCCCCC;
+  line-height: 30px;
+  text-align: center;
+}
+
+.storeP {
+  width: 400px;
+  text-align: center;
+  padding-top: 7px;
+  height: 42px;
+  float: left;
+}
+
+.storeP p {
+  width: 100px;
+  float: left;
+  margin-top: -5px;
+}
+
+.storeP p span {
+  display: block;
+  width: 100px;
+}
+
+.storeP p del {
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.storeP p a {
+  line-height: 42px;
+  color: red;
+}
+
+.storeP p i {
+  display: block;
+  line-height: 42px;
+  font-size: 16px;
+  color: red;
+}
+
+.storeP p img {
+  line-height: 42px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.allcheck {
+  float: left;
+}
+
+.allcheck span {
+  margin-right: 20px;
+  line-height: 70px;
+}
+
+.settlement {
+  float: right;
+}
+
+.setBtn {
+  display: inline-block;
+  background: #f2323b;
+  color: #e8e4e4;
+  width: 165px;
+  text-align: center;
+  font-weight: bold;
+  color: #b6b6b6;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+#box {
+  background: #fff !important;
+}
+
+.bar-wrapper {
+  position: static;
+}
+
+#delall {
+  display: inline-block;
+  cursor: pointer;
+  background: #ccc;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}

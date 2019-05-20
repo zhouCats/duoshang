@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#box {
+    width: 100%;
+    min-width: 1220px;
+    background: #f1f3f0;
+}
+#box .dou_nav {
+    width: 100%;
+    height: 30px;
+    background: #3e3e3e;
+}
+#box .nav_content {
+    width: 1220px;
+    height: 30px;
+    margin: auto;
+    background: #3e3e3e;
+}
+#box .nav_left {
+    width: 440px;
+    height: 100%;
+    float: left;
+    line-height: 30px;
+}
+#box .nav_left .dou_title {
+    margin-right: 10px;
+    font-size: 14px;
+    color: white;
+}
+#box .nav_left .duo_login {
+    color: white;
+}
+#box .nav_left .duo_login a {
+    font-size: 14px;
+    color: white;
+    margin-right: 3px;
+    
+}
+#box  .loginbtn {
+    margin-left: 10px;
+}
+#box .nav_right {
+    width: 504px;
+    height: 100%;
+    float: right;
+}
+#box .nav_list {
+    width: 100%;
+    height: 100%;
+}
+#box .nav_list li {
+    float: left;
+    line-height: 30px;
+    margin-right: 43px;
+}
+#box .nav_list li a {
+    color: white;
+    font-size: 14px;
+}
+#box .last_list {
+    margin-right: 0px !important;
+}
+#box .head {
+    width: 100%;
+    height: 90px;
+    /* background: #fff; */
+}
+#box .head_content {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    margin-top: 30px;
+}
+.head_container {
+    width: 1220px;
+    height: 90px;
+    margin: auto;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    margin-top: 10px;
+    margin-right: 105px;
+}
+.search {
+    width: 508px;
+    height: 81px;
+    float: left;
+    margin-right: 83px;
+}
+.search_wrap {
+    width: 100%;
+    height: 35px;
+    border-radius: 12px;
+    border: 1px solid #d8ddd7;
+    position: relative;
+    background: white;
+}
+.input_wrap {
+    width: 470px;
+    height: 100%;
+    float: right;
+    outline: none;
+    border: 0 none;
+    font-size: 11px;
+}
+.search_submite {
+    position: absolute;
+    right: 0;
+}
+.camora {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+.much_img {
+    width: 260px;
+    height: 33px;
+    float: left;
+    margin-top: 5px;
+}
+.much_img a {
+    margin-right: 47px;
+}
+.search_hot {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.search_hot li {
+    float: left;
+    margin-right: 17px;
+    max-width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #808080;
+}
+.search_hot li a {
+    color: #b5aeae;
+}
+/* 内容部分 */
+#duo_content {
+    min-height: 430px;
+}
+/* 尾部部分 */
+#duo_footer {
+    width: 100%;
+    height: 508px;
+    background: white;
+   box-shadow: 0 4px 1px -1px #d51e00 inset;
+
+}
+.footer_help {
+    width: 1220px;
+    margin: auto;
+    height: 310px;
+    background-image: url(../img/tuifooter2.jpg);
+  position: relative;
+}
+.foot_list {
+   width: 970px;
+   height: 150px;
+   padding-top: 0;
+   position: absolute;
+   bottom: 0;
+}
+.foot_list dl {
+    float: left;
+    width: 120px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.foot_list dl dt {
+    margin-left: 17px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+}
+.foot_list dl dt a {
+    color: black;
+}
+.foot_list dl dd{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 17px;
+    text-align: left;
+}
+.foot_list dl dd a {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999;
+}
+.footer_container {
+    width: 1000px;
+    margin: auto;
+}
+.footer_container p {
+    cursor: pointer;
+    width: 565px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}

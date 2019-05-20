@@ -1,0 +1,448 @@
+@charset "UTF-8";
+.gdx {
+  width: 100%;
+  height: 60px;
+  border-bottom: 2px solid red;
+}
+
+.contentall {
+  width: 1240px;
+  height: 660px;
+  margin: 0 auto;
+  border: 0px solid #eee;
+}
+
+.contentall .shopTitle {
+  width: 994px;
+  margin-bottom: 15px;
+}
+
+.contentall .shopTitle h1 {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.contentall .shopTitle p {
+  text-align: right;
+  width: 994px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.Magnifier {
+  width: 994px;
+  float: left;
+  padding-left: 0px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.Magnifier .MaganifierCont {
+  width: 422px;
+  float: left;
+  height: auto;
+  position: relative;
+  padding: 10px;
+  z-index: 99;
+}
+
+.Magnifier .MaganifierR {
+  width: 546px;
+  float: left;
+  height: auto;
+  padding-left: 6px;
+}
+
+.goodsIndex {
+  width: 225px;
+  color: #666;
+  float: right;
+  height: auto;
+}
+
+.goodsIndex .goodsHead {
+  background: #f8f8f8;
+  color: #666;
+  text-indent: 24px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 13px;
+  border: 1px solid #d7d7d7;
+}
+
+.goodsIndex .goodsCont {
+  padding: 22px 24px 0px;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #ffffff;
+}
+
+.company {
+  position: relative;
+  margin-bottom: 0px;
+  color: #1E50A2;
+  z-index: 15;
+  height: 22px;
+  line-height: 14px;
+}
+
+.goodsName {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.goodsName img {
+  margin-top: 5px;
+}
+
+.cerify {
+  width: 175px;
+  height: 57px;
+}
+
+.cerify a {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.shopBtn {
+  background: #d61e00;
+  color: #fff;
+  cursor: pointer;
+  height: 30px;
+  width: 121px;
+  display: block;
+  padding-left: 53px;
+  line-height: 28px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.minShop {
+  width: 225px;
+  border-top: 2px solid #ccc;
+  margin-left: -25px;
+  height: 250px;
+}
+
+.minShop h3 {
+  padding-left: 16px;
+  padding-top: 13px;
+  font-size: 12px;
+  color: #535353;
+  padding-right: 24px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.minShop h3 a {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #ccc;
+  float: right;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 16px;
+}
+
+.minShop h3 a img {
+  width: 100%;
+  height: 100%;
+}
+
+.minShop ul {
+  margin: 0 auto;
+  width: 202px;
+}
+
+.minShop ul li {
+  float: left;
+  width: 92px;
+  margin: 4px;
+  text-align: center;
+}
+
+.lanjiazai a {
+  display: inline-block;
+  width: 92px;
+  height: 80px;
+}
+
+.lanjiazai a img {
+  width: 100%;
+  height: 100%;
+}
+
+#MagnifierWrap2 {
+  margin: 0;
+  width: 420px;
+}
+
+.MagnifierMain {
+  width: 420px;
+  height: 420px;
+}
+
+.spec-items {
+  width: 420px;
+}
+
+span.spe_rightBtn {
+  z-index: 66;
+}
+
+.spe_leftBtn {
+  z-index: 99;
+}
+
+.MaganifierR_main {
+  background: #f31200;
+  width: 100%;
+  height: 94px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.MaganifierR_main .look_main {
+  position: relative;
+  z-index: 9;
+  height: 94px;
+  display: inline-block;
+  float: left;
+  width: 71px;
+  background: #aa1800;
+}
+
+.MaganifierR_main .look_main p {
+  width: 100%;
+  height: 58px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 58px;
+}
+
+.MaganifierR_main .look_main a {
+  display: block;
+  width: 100%;
+  height: 36px;
+  background: #ff7f14;
+  font-size: 12px;
+  text-align: center;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.saleNum span {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.salePrice span {
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 54px;
+  font-size: 22px;
+}
+
+.fire {
+  width: 500px;
+  height: 75px;
+  margin-left: 46px;
+  margin-top: 10px;
+}
+
+.fire .fireOne {
+  font-size: 12px;
+  color: #666666;
+}
+
+.fire .fireT {
+  font-size: 12px;
+}
+
+.fire .fireT a {
+  color: #ff7300;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.fireS {
+  width: 500px;
+  margin-left: 46px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.fireS a {
+  color: #ff7300;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.copy {
+  width: 500px;
+  margin-left: 46px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.copy span {
+  display: inline-block;
+  background: #ccc;
+}
+
+.copy a {
+  width: 118px;
+  height: 26px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  background: #ff7f14;
+  float: right;
+  margin-right: 27px;
+  line-height: 26px;
+  border: 1px solid #d96300;
+}
+
+.colorAll {
+  padding-top: 15px;
+  padding-left: 44px;
+  color: #666;
+  width: 501px;
+  margin-top: 50px;
+}
+
+.colorAll p span {
+  border: 2px solid #d61e00;
+  font-size: 12px;
+  height: auto;
+  padding: 1px 7px;
+  line-height: 20px;
+  width: auto;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.sizeN {
+  width: 500px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666666;
+  margin-top: 30px;
+}
+
+.sizeN span {
+  margin-left: 30px;
+  line-height: 40px;
+  margin-top: 10px;
+  color: black;
+  flex-wrap: 600;
+}
+
+.sales {
+  color: red;
+}
+
+.price {
+  color: red;
+}
+
+.addActive {
+  background: orange;
+}
+
+.numA {
+  width: 100px;
+  height: 28px;
+  float: right;
+  line-height: 28px;
+}
+
+.numA input {
+  float: left;
+  display: block;
+  width: 40px;
+  height: 24px;
+  text-align: center;
+  outline: none;
+}
+
+.numA a {
+  float: left;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #e5e5e5;
+  background-color: #f8f8f8;
+  line-height: 24px;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 900;
+}
+
+.cartAdd {
+  height: 105px;
+  line-height: 45px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.cartAdd p {
+  width: 500px;
+  padding-left: 20px;
+  float: left;
+  color: #d61e00;
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+.cartAdd p b {
+  font-size: 19px;
+}
+
+.cartAdd p a {
+  font-size: 22px;
+  color: #d61e00;
+}
+
+.addP {
+  width: auto;
+  float: right;
+}
+
+.addP a {
+  display: block;
+  float: left;
+  width: 183px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  color: #b91a00;
+  font-size: 17px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: 微软雅黑;
+  margin-right: 15px;
+}
+
+.addP .addp1 {
+  background: #e52019;
+  color: #fff;
+  border: 2px solid #e52019;
+}
+
+.addP .addp2 {
+  background: pink;
+  border: 1px solid red;
+}
